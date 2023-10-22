@@ -33,11 +33,13 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
-  <script>
-document.addEventListener('contextmenu', function(e) {
-  e.preventDefault();
-  alert('JANGAN MACEM MACEM!');
-});
+  <script> 
+     // Mencegah klik kanan 
+     window.addEventListener('contextmenu', function (e) { 
+         e.preventDefault();  
+         alert('Gak usah macem-macem 😏');  
+     }, false); 
+ </script>
 
 </head>
 
